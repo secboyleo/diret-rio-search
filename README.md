@@ -1,2 +1,11 @@
-# diret-rio-search
-programa que busca se o diretório existe ou não dentro do sistema.
+# diretorio-search
+```
+read -p "diretório que deseja informar:" VAR
+
+if [ -e $VAR ]
+then
+    echo "arquivo encontrado"
+else
+    echo "arquivo não encontrado"
+fi
+```
